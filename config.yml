@@ -1,0 +1,51 @@
+speech_config:
+  sample_rate: 16000
+  frame_ms: 25
+  stride_ms: 10
+  feature_type: log_mel_spectrogram
+  num_feature_bins: 80
+  preemphasis: 0.97
+  normalize_signal: True
+  normalize_feature: True
+  normalize_per_feature: False
+
+decoder_config:
+  vocabulary: conformer.subwords
+  target_vocab_size: 1024
+  max_subword_length: 4
+  blank_at_zero: True
+  beam_width: 0
+  norm_score: True
+
+model_config:
+  name: conformer
+  encoder_subsampling:
+    type: conv2d
+    kernel_size: 3
+    strides: 2
+    filters: 144
+  encoder_positional_encoding: sinusoid_concat
+  encoder_dmodel: 144
+  encoder_num_blocks: 16
+  encoder_head_size: 36
+  encoder_num_heads: 4
+  encoder_mha_type: relmha
+  encoder_kernel_size: 32
+  encoder_fc_factor: 0.5
+  encoder_dropout: 0.1
+  prediction_embed_dim: 320
+  prediction_embed_dropout: 0.0
+  prediction_num_rnns: 1
+  prediction_rnn_units: 320
+  prediction_rnn_type: lstm
+  prediction_rnn_implementation: 1
+  prediction_layer_norm: True
+  joint_dim: 320
+
+learning_config:
+  test_dataset_config:
+    use_tf: True
+    tfrecords_dir: null
+    shuffle: False
+    buffer_size: 100
+    cache: False
