@@ -13,13 +13,11 @@ pip3 install '.[tf-2.5-gpu]'
 </pre>
 
 ###### [ Check if the gpu is in use ]
-<pre>
 <code>
 python
 tf.test.is_gpu_available()
 exit()
 </code>
-</pre>
 
 ###### [ if the gpu is not in use ]
 <pre>
