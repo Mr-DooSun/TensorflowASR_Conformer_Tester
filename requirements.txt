@@ -1,146 +1,70 @@
 absl-py==0.12.0
-altair==4.1.0
 appdirs==1.4.4
-argon2-cffi==20.1.0
-astor==0.8.1
 astunparse==1.6.3
-async-generator==1.10
 attrs==21.2.0
 audioread==2.1.9
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-base58==2.1.0
-bleach==3.3.1
-blinker==1.4
 cachetools==4.2.2
-certifi==2020.12.5
+certifi==2021.5.30
 cffi==1.14.6
-charset-normalizer==2.0.3
-click==7.1.2
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-cycler==0.10.0
-cython==3.0.0a8
-decorator @ file:///tmp/build/80754af9/decorator_1617916966915/work
-defusedxml==0.7.1
+charset-normalizer==2.0.4
+colorama==0.4.4
+decorator==5.0.9
 dill==0.3.4
-entrypoints==0.3
 flatbuffers==1.12
 future==0.18.2
-gast==0.3.3
-gitdb==4.0.7
-GitPython==3.1.18
-google-auth==1.33.0
-google-auth-oauthlib==0.4.4
+gast==0.4.0
+google-auth==1.34.0
+google-auth-oauthlib==0.4.5
 google-pasta==0.2.0
 googleapis-common-protos==1.53.0
 grpcio==1.34.1
-h5py==2.10.0
+h5py==3.1.0
 idna==3.2
-importlib-resources==5.2.0
-ipykernel @ file:///C:/ci/ipykernel_1596190155316/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1617121002983/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
-ipywidgets==7.6.3
-jedi @ file:///C:/ci/jedi_1606914528444/work
-Jinja2==3.0.1
+importlib-resources==5.2.2
 joblib==1.0.1
-jsonschema==3.2.0
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1616770841739/work
-jupyter-core @ file:///C:/ci/jupyter_core_1612213356021/work
-jupyterlab-pygments==0.1.2
-jupyterlab-widgets==1.0.0
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
-kiwisolver==1.3.1
-librosa==0.7.2
-llvmlite==0.31.0
+librosa==0.8.1
+llvmlite==0.36.0
 Markdown==3.3.4
-MarkupSafe==2.0.1
-matplotlib==3.4.2
-mistune==0.8.4
-nbclient==0.5.3
-nbconvert==6.1.0
-nbformat==5.1.3
-nest-asyncio==1.5.1
-nlpaug==1.1.6
-nltk==3.6.2
-notebook==6.4.0
-numba==0.48.0
+numba==0.53.1
 numpy==1.19.5
 oauthlib==3.1.1
 opt-einsum==3.3.0
 packaging==21.0
-pandas==1.3.0
-pandocfilters==1.4.3
-parso==0.7.0
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-pillow==8.3.1
 pooch==1.4.0
-prometheus-client==0.11.0
 promise==2.3
-prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
 protobuf==3.17.3
-pyarrow==5.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.20
-pydeck==0.6.2
-Pygments @ file:///tmp/build/80754af9/pygments_1615143339740/work
-pyparsing==3.0.0b2
-pyrsistent==0.18.0
-PySoundFile==0.9.0.post1
-python-dateutil @ file:///home/ktietz/src/ci/python-dateutil_1611928101742/work
-pytz==2021.1
-pywin32==227
-pywinpty==1.1.3
-pyyaml==5.4.1
-pyzmq==20.0.0
-regex==2021.7.6
+pyparsing==2.4.7
+PyYAML==5.4.1
 requests==2.26.0
 requests-oauthlib==1.3.0
 resampy==0.2.2
 rsa==4.7.2
 scikit-learn==0.24.2
 scipy==1.7.0
-Send2Trash==1.7.1
 sentencepiece==0.1.96
-six @ file:///C:/ci/six_1605187374963/work
-sklearn==0.0
-smmap==4.0.0
-soundfile==0.10.3.post1
-sox==1.4.1
-streamlit==0.85.1
+six==1.15.0
+SoundFile==0.10.3.post1
 tensorboard==2.5.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.4.2
-tensorflow-addons==0.13.0
-tensorflow-datasets==4.3.0
+tensorflow==2.5.0
+tensorflow-datasets==4.4.0
 tensorflow-estimator==2.5.0
-tensorflow-gpu==2.4.2
-tensorflow-hub==0.12.0
-tensorflow-io==0.17.1
-tensorflow-metadata==1.1.0
-tensorflow-text==2.4.3
-tensorflowasr==1.0.2
+tensorflow-gpu==2.5.0
+tensorflow-io==0.19.1
+tensorflow-io-gcs-filesystem==0.19.1
+tensorflow-metadata==1.2.0
 termcolor==1.1.0
-terminado==0.10.1
-testpath==0.5.0
 threadpoolctl==2.2.0
-toml==0.10.2
-toolz==0.11.1
-tornado @ file:///C:/ci/tornado_1606942392901/work
-tqdm==4.61.2
-traitlets @ file:///home/ktietz/src/ci/traitlets_1611929699868/work
-typeguard==2.12.1
+tqdm==4.62.0
 typing-extensions==3.7.4.3
-tzlocal==2.1
 urllib3==1.26.6
-validators==0.18.2
-watchdog==2.1.3
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
-webencodings==0.5.1
 Werkzeug==2.0.1
-widgetsnbextension==3.5.1
 wincertstore==0.2
 wrapt==1.12.1
 zipp==3.5.0
