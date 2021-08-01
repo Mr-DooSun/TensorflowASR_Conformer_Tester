@@ -2,7 +2,7 @@
 
 ##### https://github.com/TensorSpeech/TensorFlowASR 해당 링크의 코드를 활용하였습니다.
 
-##### < conda 환경 세팅 >
+#### < Conda env Setting >
 <pre>
 conda create -n test python==3.8.8
 conda activate test
@@ -16,7 +16,10 @@ pip install tensorflow_datasets
 pip install streamlit
 </pre>
 
-##### < Run >
+#### < Run >
 <pre>
 streamlit run STT_System.py
 </pre>
+
+#### < Result >
+![](result.jpg)
