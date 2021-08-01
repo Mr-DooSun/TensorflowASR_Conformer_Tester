@@ -22,4 +22,4 @@ streamlit run STT_System.py
 </pre>
 
 #### < Result >
-![](result.jpg)
+![result](result.JPG)
