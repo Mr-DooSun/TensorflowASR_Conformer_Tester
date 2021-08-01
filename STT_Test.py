@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from tensorflow_asr.utils import env_util
+from tensorflow_asr_1.utils import env_util
 logger = env_util.setup_environment()
 
 import tensorflow as tf
@@ -72,5 +72,5 @@ class STT() :
 
 # stt = STT()
 
-# result = stt.Test('data/3240-131231-0000.flac')
+# result = stt.Test('temp/3240-131231-0000.flac')
 # print(result)
