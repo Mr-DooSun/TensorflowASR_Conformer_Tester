@@ -4,6 +4,8 @@
 
 #### < Conda env Setting >
 <pre>
+conda create -n ASR python==3.8.8
+conda activate ASR
 pip install -U TensorFlowASR[tf2.4-gpu]
 </pre>
 
